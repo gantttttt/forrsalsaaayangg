@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>W</title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-image: url('Background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "button button"
+                "bottom-left bottom-right"
+                ". bottom-text";
+            gap: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        .box {
+            width: 150px;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box-top-left {
+            grid-area: top-left;
+        }
+
+        .box-bottom-right {
+            grid-area: bottom-right;
+        }
+
+        .text {
+            color: white;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .text-top-right {
+            grid-area: top-right;
+        }
+
+        .text-bottom-left {
+            grid-area: bottom-left;
+        }
+
+        .text-bottom {
+            grid-area: bottom-text;
+            position: absolute;
+            bottom: 50px; 
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 10px; 
+            font-size: 12px; 
+            line-height: 1.4; 
+        }
+
+        .button {
+            grid-area: button;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+    </style> 
+</head> 
+<body> 
+    <audio autoplay>
+        <source src="MyGirl.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container"> 
+        <div class="box box-top-left"> 
+            <img src="MyGirl.jpg" alt="Image 1"> 
+        </div> 
+        <div class="text text-top-right">
+            hi girl, tau sekarang hari apa?, ya hari ini hari senin tepatnya hari national girlfriend day. happy national girlfriend day my beautiful, makasih udah buat hari" ku berwarna, yang tdinya suram jadi berwarna karena kamu datang ke kehidupan aku, kamu selalu ngertiin aku, kamu udah sabar
+ngadepin sifat aku, makasih udah nemenin aku dr awal sampai sekarang
+ini, ga nyangka aku bakal ketemu sama wanita cantik, baik, penyabar,
+hebat seperti ini, kamu bidadari untuk aku, penyemangat untuk aku.
+makasih udah jadi rumah terbaik aku disini cantik. I hope that in the
+future you will never change, okay? keep being the woman I know, don't
+like overthingking or insecure, you are beautiful. you're special and u
+love everything about you. jangan tinggalin aku, aku butuh kamu disini
+kalau ada apa" cerita plis ke aku, jgn dipendem, jangan sedih" aku
+gamau liat kamu sedih .. i love you without any limit bby, i still love with u
+        </div> 
+        <a href="https://api.whatsapp.com/send?phone=6288210982908&text=Terimakasih%20sayangg%20(isi%20pesan%20mu)" class="button">BALAS</a>
+        <div class="text text-bottom-left">
+            Hallo sayangggkuuu, Happy girlfriend day ya , aku mau bilang kalau aku bersyukur bngt punya kamu, kamu orang baik yang selalu coba ngertiin keadaan aku, padahal aku sering bikin kamu kesel, nangis, pokoknya kamu terbaik, maafin aku ya blm bisa bahagiain kmu ga kaya masa lalu kamu, tapi gapapa aku usahain untuk bisa bahagiain kamu aku pasti bisa, pokoknya aku udah bersyukur dengan apa yang kamu kasi ke aku, tapi aku selalu buat kamu kecewa maaf ya kalau aku jahat sama kamu, and apapaun keadaan nya jangan jadiin alasan buat kita berpisah, okeyyyy. Maafin aku ya sayangggkuuu aku janji kedepannya akan membuat kamu bahagia and ga akan ngecewain kamu lagi, udah segitu aja maaf ya cantikkkuu.
+babaii salsaaa
+        </div> 
+        <div class="box box-bottom-right"> 
+            <img src="My-Girl.jpg" alt="Image 2"> 
+        </div> 
+        <div class="text text-bottom">
+            Selamat hari perempuan sedunia ya salsayangggkuuuuuuu
+        </div> 
+    </div> 
+</body>
+</html>
